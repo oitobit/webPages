@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'dejavu';
+    src: url(../fonts/dejavu-fonts-ttf-2.37/ttf/DejaVuSerif.ttf);
+}
+
+#body, #html {
+    margin: 0;
+    max-width: 100%;
+}
+
+header#header {
+    height: 111px;
+    max-width: 100%;
+    margin: 0 117px;
+}
+
+li#logo {
+    float: left;
+}
+
+img {
+    margin: 18px 0px;
+}
+
+ul.menu {
+    display: inline;
+    list-style-type: none;
+}
+
+li.list-items {
+    float: right;
+}
+
+a.link {
+    border-bottom: 3px solid lightgray;
+    color: #151515;
+    padding-bottom: 5px;
+    position: relative;
+    font-family: dejavu;
+    text-decoration: none;
+    margin-left: 32px;
+    top: 50px;
+}
+
+a.alt {
+    border-color: #1980B6;
+}
+
+a.link:hover {
+    border-color: #1980B6;
+}
+

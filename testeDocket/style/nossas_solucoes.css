@@ -1,0 +1,77 @@
+@font-face {
+    src: url(../fonts/dejavu-fonts-ttf-2.37/ttf/DejaVuSans.ttf);
+    font-family: 'dejavu';
+}
+
+section#nossas-solucoes {
+    margin-top: 49px;
+    margin: 0px auto;
+    width: 1000px;
+    clear: both;
+
+}
+
+h2#h2 {
+    color: #1980B6;
+    font-size: 36px;
+    text-align: center;
+    font-family: dejavu;
+}
+
+div.box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.solucoes {
+    border: 1px solid lightgray;
+    margin-right: 19px;
+    width: 318px;
+    background-color: #fff;
+}
+
+div.solucoes-mg {
+    margin-right: 0;
+}
+
+img.img-solucoes {
+    width: 82px;
+    height: 72px;
+    margin: 47px 117px 0px 117px;
+}
+
+div.alt {   
+    padding: 21px;
+}
+
+h3.h3 {
+    margin-top: 0px;
+    color: #1980B6;
+    font-family: dejavu;
+    font-size: 26px;
+    text-align: center;
+    font-weight: 500;
+}
+
+p {
+    color: #1980B6;
+    text-align: center;
+    font-family: dejavu;
+}
+
+div.btnCenter {
+    width: 190px;
+    margin: 28px auto;
+}
+
+button.btn {
+    width: 160px;
+    height: 49px;
+    background-color: #1980B6;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-family: dejavu;
+    font-size: 16px;
+    font-weight: bold;
+}

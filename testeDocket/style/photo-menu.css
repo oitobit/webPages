@@ -1,0 +1,102 @@
+section#photo-menu {
+    height: 564px;
+    width: 100%;
+    margin-bottom: 69px;
+}
+
+img#photo {
+    background-repeat: no-repeat;
+    border: 2px solid lightgray;
+    border-bottom: 2px dashed red;
+    height: 564px;
+    width: 100%;
+}
+
+div#banner {
+    position: absolute;
+    top: 180px;
+    right: 0;
+    margin-right: 230px;
+    width: 360px;
+    height: 333px;
+}
+
+h1#h1 {
+    color: #1980B6;
+    font-family: dejavu;
+    font-size: 52px;
+    text-align: justify;
+    margin: 0;
+}
+
+p#bn-p {
+    color: #1980B6;
+    font-family: dejavu;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: justify;
+    margin: 0;
+}
+
+.circle-right {
+    position: relative;
+    left: 380px;
+    top: 130px;
+}
+ 
+.circle-right:before {
+    color: #1980B6;
+    content: "\f105";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    font-size: 90px;
+    padding-right: 0.5em;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    cursor: pointer;
+}
+
+.circle-left {
+    position: relative;
+    top: -416px;
+    left: 170px;
+}
+ 
+.circle-left:before {
+    color: #1980B6;
+    content: "\f104";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    font-size: 90px;
+    padding-right: 0.5em;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    cursor: pointer;
+}
+
+div.arrow {
+    position: absolute;
+    top: 600px;
+    right: 550px;
+}
+
+a.line {
+    padding: 1px 19px;
+    margin: 0px 20px;
+    border-bottom: 3px solid rgb(156, 153, 153);
+    text-decoration: none;
+}
+
+a.alt-line {
+    border-color: #1980B6;
+}
+
+a.line:hover {
+    border-color: #1980B6;
+}
