@@ -1,0 +1,58 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+div#page {
+    padding: 0;
+    margin: 0;
+}
+
+div#header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+div.navigation {
+    max-width: 940px;
+    height: 227px;
+    display: flex;
+}
+
+div.navigation img {
+    margin: 44px 0px;
+}
+
+nav.menu {
+    width: 100%;
+    margin: auto 135px;
+}
+
+nav.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+ul li {
+    margin: 0 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: black;
+    font-size: 14px;
+    font-family: Arial black;
+}
+
+a.select {
+    color: #fb416f;
+}
+
+a:hover {
+    color: #16ab88;
+}

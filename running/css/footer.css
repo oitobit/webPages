@@ -1,0 +1,73 @@
+div#footer {
+    background-color: #111111;
+    margin: 0;
+    min-height: 122px;
+    padding: 0;
+    width: 100%;
+}
+
+div.box-footer {
+    margin: 0 auto;
+    max-width: 940px;
+    overflow: hidden;
+    padding: 47px 10px 42px;
+}
+
+div.box-footer p {
+    color: #FFFFFF;
+    float: left;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 15px;
+    margin: 0;
+    padding: 5px 0 0;
+    text-align: left;
+    text-transform: none;
+    width: 400px;
+}
+
+.connect {
+    display: block;
+    float: right;
+    height: 32px;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    width: 154px;
+}
+
+#footer .box-footer .connect a.twitter{
+    background-position: 0 -90px;
+}
+
+.connect a {
+    background: url('../images/icons.png') no-repeat;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    display: block;
+    float: left;
+    height: 28px;
+    margin: 0 7px;
+    padding: 0;
+    text-indent: -99999px;
+    width: 28px;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+}
+
+#footer .box-footer .connect a.facebook {
+    background-position: 0 0;
+}
+
+#footer .box-footer .connect a.googleplus {
+    background-position: 0 -30px;
+}
+
+#footer .box-footer .connect a.pinterest {
+    background-position: 0 -60px;
+    margin: 0;
+}
