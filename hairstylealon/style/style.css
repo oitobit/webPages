@@ -1,0 +1,98 @@
+html, body {
+    width: 100%;
+    margin: 0;
+}
+
+header#header {
+    background-color: #4C8F96;
+    height: 183px;
+    display: flex;
+    justify-content: center;
+}
+/* formatação da minha logo */
+div.box {
+    padding: 60px 0px;
+    margin: 64px 250px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 950px;
+}
+
+div.logo {
+    width: 270px;
+    height: 130px;
+    background-color: #30364c;
+    text-align: center;
+    line-height: 2.1;
+    padding: 0 20px;
+}
+
+div.logo a.link {
+    font-size: 60px;
+    letter-spacing: 2px;
+    color: #ffffff;
+    font-family: 'Arimo', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* formatação dos meus buttons */
+nav.navMenu {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+li.item {
+    list-style-type: none;
+    width: 112px;
+    height: 30px;
+    border-radius: 4px;
+    background-color: #1b2130;
+    text-align: center;
+    line-height: 1.8;
+    margin-left: 23px;
+}
+
+li#home {
+    width: 75px;    
+    height: 30px;
+    background-color: #335f64;
+}
+
+li#about {
+    width: 88px;
+    height: 30px;
+}
+
+li#hairstyle {
+    width: 140px;
+    height: 30px;
+}
+
+li#news {
+    width: 75px;
+    height: 30px;
+}
+
+li#contact {
+    width: 112px;
+    height: 30px;
+}
+
+a.btn-menu {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    font-family: "Arial";
+}
+
