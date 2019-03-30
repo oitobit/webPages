@@ -1,0 +1,238 @@
+html, body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+div.header {
+    height: 100%;
+}
+
+div.box {
+    background-color: rgb(177, 212, 83);
+    height: 35px;
+}
+
+div.box div.panel {
+    text-align: right;
+    margin-right: 200px;
+}
+
+div.box div.panel a.main-page {
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 2.3;
+    color: #544394;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+div.background {
+    background-image: url("images/banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+div.content {
+    margin-top: 63px;
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    margin-bottom: 60px;
+}
+
+div.content div.information {   
+    width: 991px;
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+}
+
+div.txt1 {
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    word-wrap: break-word;
+    width: 70%;
+    margin-bottom: 10px;
+}
+
+div.txt2 {
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    word-wrap: break-word;
+    width: 50%;
+    margin-bottom: 32px;
+}
+
+div.txt3 {
+    margin: 0px 20px;
+    color: #04a2c2;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-align: center;
+    word-wrap: break-word;
+    width: 70%;
+    margin-bottom: 12px;
+}
+
+div.txt3 > i {
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+div.line {
+    border-bottom: 3px solid rgb(4, 162, 194);
+    margin-bottom: 100px;
+    height: 5px;
+    width: 200px;
+    position: relative;
+    top: 10px;
+    left: 235px;
+}
+
+div.container {
+    background-color: rgb(237, 237, 237);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+div.container div.category {
+    width: 1000px;
+}
+
+section.car {
+    display: flex;
+    justify-content: center;
+    height: 180px;
+}
+
+section.car img {
+    background-image: url("images/car.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 220px;
+    position: relative;
+    top: -73px;
+}
+
+section.grid-container {
+    display: flex;
+    justify-content: center;
+}
+
+section.grid-container div.left {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+}
+
+section.grid-container div.grid1 {
+    color: #7d7d7d;
+    font-size: 1.7em;
+    font-weight: bold;
+    word-wrap: break-word;
+    width: 70%;
+    text-align: right;
+    margin-right: 10px;
+}
+
+section.grid-container div.right {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 10px;
+}
+
+section.grid-container div.right div.grid2 {
+    width: 60%;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+section.grid-container div.grid3 {
+    color: #b3aaa6;
+    font-size: 1.6em;
+    font-weight: bold; 
+}
+
+section.media {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 80px;
+    height: 550px;
+}
+
+div.music {
+    width: 245px;
+    height: 293px;
+    position: relative;
+}
+
+div.music img.album {
+    background-size: cover;
+    background-position: center;
+    width: 245px;
+    height: 273px;
+}
+
+img.play {
+    background-size: cover;
+    height: 50px;
+    position: absolute;
+    top: 130px;
+    left: 95px;
+    cursor: pointer;
+}
+
+div.about-color1 {
+    background-color: #240200;
+}
+
+div.about-color2 {
+    background-color: #526263;
+}
+
+div.about-color3 {
+    background-color: #6b6852;
+}
+
+div.about {
+    width: 245px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -5px;
+}
+
+div.about i {
+    color: #fff;
+    font-style: normal;
+    font-family: 'Roboto', sans-serif;
+    font-size:1.5em ;
+    font-weight: bold;
+}
+
+div.letter {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 245px;
+    height: 50px;
+    margin-top: 15px;
+}
+
+div.letter > i {
+    color: #b3a9a8;
+    font-size: 1.4em;
+}
